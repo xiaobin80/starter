@@ -11,6 +11,6 @@ const store = createStore(reducer, initialState);
 
 store.subscribe(() => document.getElementById('counter').innerText = store.getState());
 
-setInterval(() => store.dispatch({ type: 'INC' }), 500);
+setInterval(() => store.dispatch({ type: 'INC' }), 1000);
 
 console.log("Redux started");
