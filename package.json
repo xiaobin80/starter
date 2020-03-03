@@ -1,6 +1,6 @@
 {
   "name": "redux-book-started",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Sample Redux Application",
   "main": "app.js",
   "scripts": {
@@ -11,10 +11,10 @@
   "dependencies": {
     "jquery": "3.4.1",
     "redux": "4.0.5",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.11"
   },
   "devDependencies": {
-    "webpack": "4.41.5",
-    "webpack-dev-server": "3.10.1"
+    "webpack": "4.42.0",
+    "webpack-dev-server": "3.10.3"
   }
 }
